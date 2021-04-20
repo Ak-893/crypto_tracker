@@ -3,6 +3,7 @@ import {useState} from 'react'
 import CoinList from '../components/CoinList';
 import SearchBar from '../components/SearchBar';
 import Layout from '../components/Layout';
+import Datetime from './Datetime';
 
 
 export default function Home({filteredCoins}) {
